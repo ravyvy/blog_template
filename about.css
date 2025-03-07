@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    display: flex;
+    margin-top: 60px;
+}
+.text{
+    padding-top: 170px;
+    padding-left: 80px;
+    
+}
+.text h4{
+    font-size: 30px;
+    padding: 10px;
+}
+.text p{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(86, 87, 88);
+}
+.pic img{
+    margin: 0 0 0 55px;
+    width: 106%;
+    height: 500px;
+}
+
+.a{
+    margin-top: 80px;
+    background-color: rgb(246, 246, 246);
+   width: 100%;
+   height: 150px;
+   text-align: center;
+   padding: 40px;
+   color: rgb(6, 6, 6);
+   
+}
+.a h3{
+    padding: 10px;
+    font-size: 30px;
+}
+.a p{
+    font-size: 20px;
+    
+}
+.car{
+    display: flex;
+    justify-content: center;
+    margin-top: ២0px;
+}
+.cara{
+    background-image: url(./website/pic/people\ see.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+   
+    
+}
+.cara h2{
+    color: white;
+    padding: 170px 0 0 20px;
+    font-size: 25px;
+}
+.cara p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px 0 0 20px;
+}
+.carb{
+    background-image: url(./website/pic/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.carb h2{
+    color: white;
+    padding: 170px 0 0 20px;
+    font-size: 25px;
+}
+.carb p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px 0 0 20px;
+}
+.car1{
+    display: flex;
+    justify-content: center;
+    margin-top: ២0px;
+}
+.carc{
+    background-image: url(./website/pic/car-6943487_1280.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+   
+    
+}
+.carc h2{
+    color: white;
+    padding: 170px 0 0 20px;
+    font-size: 25px;
+}
+.carc p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px 0 0 20px;
+}
+.card{
+    background-image: url(./website/pic/businessmen-4153904_1280.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.card h2{
+    color: white;
+    padding: 170px 0 0 20px;
+    font-size: 25px;
+}
+.card p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 5px 0 0 20px;
+}
+
+
+
+.headruler{
+    background-color: rgb(8, 8, 38);
+    width: 100%; 
+    height: 400px;
+    position: relative;
+    top: 80px;
+  
+   
+
+}
+.ruler{
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+}
+.ler{
+    color: #ffffff;
+    margin: 20px 50px 10px 60px;
+}
+.ww{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.w{
+    color: rgb(90, 90, 90);
+    margin: 0 20px 10px 60px;
+}
+.www{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.e{
+    color: #5a5959;
+    margin: 0 60px;
+}
+.p{
+    padding-top: 50px;
+}
+.p p{
+    padding-top: 20px;
+    color: rgb(150, 147, 147);
+    text-align: center;
+}
+
+
+
+.header{
+    height: 73px;
+    background-color: rgb(47, 0, 255);
+    position: fixed; 
+    top:0; 
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.9s ease-in-out;
+    
+}
+.logo:hover{
+    color: white;
+}
+
+
+.navbar{
+    margin: 0 100px 0 0;
+}
+
+.navbar a {
+font-size: 20px;
+color: #fcfcfc;
+text-decoration: none;
+margin: 0 15px;
+transition: 0.4s;
+padding: 3px 12px;
+background-color: blue;
+border-radius: 5px;
+border: 1px solid blue;
+}
+.navbar a:hover{
+    color: rgb(47, 0, 255);
+    background: rgb(255, 255, 255) ;
+   
+}
+.b{
+    position: relative;
+    top: 40px;
+    display: flex;
+    bottom: 40p;
+}
+.bb{
+    background-image: url(./website/pic/seo_what_to_know_about_buying_car_out_of_state_private.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 600px;
+
+}
+.cc{
+    background-color: rgb(9, 9, 61);
+    width: 50%;
+    height: 600px;
+  padding: 90px 0 0 50px;
+}
+.cc p{
+color: white;
+font-size: 20px;
+padding: 10px;
+}
+
+
+
+.c{
+    position: relative;
+    top: 40px;
+    display: flex;
+    bottom: 40p;
+}
+.cd{
+    background-image: url(./website/pic/questions_when_buying_a_used_car.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 600px;
+
+}
+.cb{
+    background-color: rgb(245, 245, 245);
+    width: 50%;
+    height: 600px;
+  padding: 90px 0 0 50px;
+}
+.cb p{
+color: rgb(0, 0, 0);
+font-size: 20px;
+padding: 10px;
+}
+.buy{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(232, 228, 228);
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 40px;
+}
+.buy .buya{
+    padding: 100px 0 0 50px;
+    
+}
+.buy .buyb{
+    background-image: url(https://www.libertycarz.com/_next/image/?url=%2Fimages%2Fsteps-to-buy-1.png&w=1080&q=75);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    top: 30px;
+   
+}
+
+.headstop{
+   
+    width: 100%;
+    height: 250px;
+}
+.buy .buyc{
+  padding: 100px;
+  font-size: 20px;
+  color: #737171;
+}
+.buy .buyc h3{
+    color: black;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+  .stop{
+position: relative;
+top: 70px;
+text-align: center;
+  }
+  .stop h2{
+    color: rgb(100, 100, 100);
+    padding: 5px;
+    font-size: 30px;
+  
+  }
+.stop p{
+    padding-top: 30px;
+    font-weight: 20px;
+}
+.q{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 45px;
+}
+.q h1{
+    color: rgb(233, 236, 70);
+}

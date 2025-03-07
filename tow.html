@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .header{
+    height: 73px;
+    background-color: rgb(47, 0, 255);
+    position: fixed; 
+    top:0; 
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.9s ease-in-out;
+    
+}
+.logo:hover{
+    color: white;
+}
+
+
+.navbar{
+    margin: 0 100px 0 0;
+}
+
+.navbar a {
+font-size: 20px;
+color: #fcfcfc;
+text-decoration: none;
+margin: 0 15px;
+transition: 0.4s;
+padding: 3px 12px;
+background-color: blue;
+border-radius: 5px;
+border: 1px solid blue;
+}
+.navbar a:hover{
+    color: rgb(47, 0, 255);
+    background: rgb(146, 145, 145) ;
+   
+}
+.head{
+    position: relative;
+    top: 30px;
+    margin: 70px 0 0 100px;
+    background-color: rgb(240, 234, 234);
+    width: 600px;
+    height: 500px;
+    border-radius: 5px;
+}
+.head iframe{
+   border-radius: 5px 5px 0 0 ;
+    width: 600px;
+    height: 400px;
+}
+.head h3{
+    text-align: center;
+    padding: 5px;
+    color: rgb(255, 0, 0);
+
+}
+.head p{
+   text-align: center;
+   padding:3px;
+    color: rgb(0, 0, 0);
+}
+.head-video{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+.review{
+    margin-top: 100px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.headruler{
+    background-color: rgb(8, 8, 38);
+    width: 100%; 
+    height: 400px;
+    position: relative;
+    top: 80px;
+  
+   
+
+}
+.ruler{
+    justify-content: space-between;
+    display: flex;
+    font-size: 20px;
+}
+.ler{
+    color: #ffffff;
+    margin: 20px 50px 10px 60px;
+}
+.ww{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.w{
+    color: rgb(90, 90, 90);
+    margin: 0 20px 10px 60px;
+}
+.www{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.e{
+    color: #5a5959;
+    margin: 0 60px;
+}
+.p{
+    padding-top: 50px;
+}
+.p p{
+    padding-top: 20px;
+    color: rgb(134, 131, 131);
+    text-align: center;
+}
+#wrapper {
+  margin: 0 auto;
+  display: block;
+  width: 960px;
+}
+.page-header {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: normal;
+  border-bottom: 1px solid #ddd;
+  margin: 30px 0
+}
+#pagination {
+  margin: 0;
+  padding: 0;
+  text-align: center
+}
+#pagination li {
+  display: inline
+}
+#pagination li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: #000
+}
+
+/* Active and Hoverable Pagination */
+#pagination li a {
+  border-radius: 5px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s
+    
+}
+#pagination li a.active {
+  background-color: #4caf50;
+  color: #fff
+}
+#pagination li a:hover:not(.active) {
+  background-color: #ddd;
+} 
+
+/* border-pagination */
+.b-pagination-outer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  display: flex
+}
+#border-pagination {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center
+}
+#border-pagination li {
+  display: inline;
+
+}
+#border-pagination li a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  float: left;
+
+}
+#border-pagination li a {
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s
+}
+#border-pagination li a.active {
+  background-color: #0800fa;
+  color: #fff;
+}
+#border-pagination li a:hover:not(.active) {
+  background: #ddd;
+}
+</style>
+<body>
+    <header class="header">
+        <a href="#" class="logo">TRUE CAR</a>
+        <nav class="navbar">
+            <a href="./website/webte.html" class="active">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./reviwe.html">Reviwe</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+     </header>
+
+<div class="head-video">
+    <div class="head">
+        <iframe src="https://www.youtube.com/embed/ErCaN1E6Ais?si=RZF5I2zUU_ccmSv_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h3>Reviews</h3>
+        <p>Chevy Blazer EV vs. Tesla Model Y vs. Hyundai </p>
+        <p>Ioniq 5  Electric SUV Comparison Test</p>
+    </div>
+    <div class="head">
+        <iframe src="https://www.youtube.com/embed/SyU30eZZc04?si=x1-9sxAvcW2ulicu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <h3>Reviews</h3>
+        <p> Luxury SUVs</p>
+        <p>Top 10 BEST Luxury SUVs For 2025 || Expert Picks For Reliability, Value & Safety</p>
+    </div>
+</div>
+
+
+     <div id="wrapper">
+      
+        <!--Active and Hoverable Pagination-->
+          <div class="page-header">Active and Hoverable Pagination</div>
+        <ul id="pagination">
+          <li><a href="./one..html">«</a></li>
+          <li><a href="./reviwe.html">1</a></li>
+          <li><a href="./one..html" >2</a></li>
+          <li><a href="./tow.html" class="active">3</a></li>
+          <li><a href="./reviwe.html">»</a></li>
+        </ul>
+      </div>
+      <div class="headruler">
+        <div class="ruler">
+                <a class="ler">Products</a>
+                <a class="ler">Resources</a>
+                <a class="ler">Work With TrueCar</a>
+                <a class="ler">About</a>
+        </div>
+        <div class="ww">
+            <a class="w"href="https://www.truecar.com/used-cars-for-sale/listings/">Used</a>
+            <a class="w"href="https://www.truecar.com/blog/">Blog</a>
+            <a class="w"href="https://dealerportal.truecar.com/">Dealers</a>
+            <a class="w"href="https://www.truecar.com/about-us/">TrueCar Inc.</a>
+        </div>
+        <div class="www">
+            <a class="e"href="https://www.truecar.com/shop/new/?filterType=brand">New</a>
+            <a class="e"href="https://www.truecar.com/faq/">FAQ</a>
+            <a class="e"href="https://www.truecar.com/oem">OEM</a>
+            <a href="../team.html" class="e">Team</a>
+        </div>
+          <div class="stop">
+                <a href="https://x.com/twitter?lang=en"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://web.facebook.com/campaign/landing.php?campaign_id=1635645242&extra_1=s%7Cc%7C313667088949%7Ce%7Cfacebook%27%7C&placement&creative=313667088949&keyword=facebook%27&partner_id=googlesem&extra_2=campaignid%3D1635645242%26adgroupid%3D67924220132%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-362360550869%26loc_physical_ms%3D9198350%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gad_source=1&gclid=Cj0KCQiAoJC-BhCSARIsAPhdfSiacF-wkNADlI__fmSZMUiIde0tI0tuSY8IcKKI-kcYkU-U2FEfAoUaAv9REALw_wcB&_rdc=1&_rdr#"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.youtube.com/"><i class='bx bxl-youtube' ></i></a>
+          </div>
+          <div class="p">
+            <p>* Between 1/1/23 and 3/31/23, the average savings off MSRP experienced by consumers who connected with a TrueCar Certified Dealer through the Employee Auto Buying Program and who were identified as buying a new vehicle from that Certified Dealer was $796. Your actual savings may vary based on multiple factors, including the vehicle you select, region, dealer, and applicable vehicle-specific manufacturer incentives, which are subject to change. The MSRP is determined by the manufacturer and may not reflect the price at which vehicles are generally sold in the dealer's trade area, as many vehicles are sold below MSRP. Each dealer sets its own pricing.
+            </p>
+            <p>For questions about the TrueCar Auto Buying Service please call 1-888-878-3227.
+        
+                Certified Dealers are contractually obligated by TrueCar to meet certain customer service requirements and complete the TrueCar Dealer Certification Program.
+                
+                TrueCar does not broker, sell, or lease motor vehicles. Unless otherwise noted, all vehicles shown on this website are offered for sale by licensed motor vehicle dealers. All vehicles are subject to prior sale. By accessing this website, you agree to the TrueCar Terms of Service and Privacy Policy.</p>
+                <p> and TrueCar, Inc. All rights reserved. Vehicle photos  Evox Images  1986-2025 Chrome Data Solutions, LP</p>
+        </div>
+        </div>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+    
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main-head{
+       background: transparent;
+       border: 2px solid rgb(60, 58, 58);
+       backdrop-filter:blur(20px);
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+        border-radius: 15px;
+        
+    }
+.main-head .input{
+    padding: 15px 0;
+   
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+}
+.login{
+    text-align: center;
+    font-size: 19px;
+
+}
+.button{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    
+
+}
+button{
+    padding: 5px 15px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+
+    
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    color: black;
+    
+}
+
+body{
+   display: flex;
+   justify-content: center;
+   height: 100vh;
+   align-items: center;
+  background-color: rgb(104, 102, 102);
+
+}
+.forget{
+    display: flex;
+    justify-content: center;
+   
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+</style>
+<body>
+ <div class="main-head">
+    <div class="head">
+        <h1 class="login">True Car</h1>
+        <div class="input">
+        <input type="email" placeholder="email">
+        </div> 
+        <div class="input">
+        <input type="password" placeholder="password">
+        </div>
+        <div class="button">
+            <button type="submit">Buy Naw</button>
+        </div>
+        <div class="forget">
+            <a href="#">Cencal</a>
+        </div>
+       </div>
+ </div>
+</body>
+</html>

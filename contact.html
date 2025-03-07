@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .header{
+    height: 73px;
+    background-color: rgb(47, 0, 255);
+    position: fixed; 
+    top:0; 
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.9s ease-in-out;
+    
+}
+.logo:hover{
+    color: white;
+}
+
+
+.navbar{
+    margin: 0 100px 0 0;
+}
+
+.navbar a {
+font-size: 20px;
+color: #fcfcfc;
+text-decoration: none;
+margin: 0 15px;
+transition: 0.4s;
+padding: 3px 12px;
+background-color: blue;
+border-radius: 5px;
+border: 1px solid blue;
+}
+.navbar a:hover{
+    color: rgb(47, 0, 255);
+    background: rgb(255, 255, 255) ;
+   
+}
+
+    .contact{
+        display: flex;
+        background-color: rgb(47, 49, 93);
+        width: 100%;
+        height: 700px;    }
+    .text{
+    padding-top: 100px;    
+    padding-left: 200px; 
+
+          }
+    h4,h5{
+       padding: 5px;
+        color: white;
+        font-size: 20px;
+
+    }
+    .text a{
+        padding: 15px;
+        margin-top: 20px;
+    }
+    .icon{
+        color: white;
+        font-size: 30px;
+    }
+  .get h1{
+    color: white;
+    padding-top: 99px;  
+    padding-bottom: 20px;
+    font-size: 50px;
+    }
+    .get{
+        margin-left:60px ;
+    }
+    .text-a{
+        padding: 10px;
+        width: 250px;
+        height: 50px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        background-color: rgb(64, 61, 83);
+        color: white;
+        border: none;
+    }
+    .email{
+        margin-left: 20px;
+        width: 250px;
+        height: 50px;
+        border-radius: 5px;
+        background-color: rgb(64, 61, 83);
+        color: white;
+        padding: 10px;
+        border: none;
+    }
+    .input-num input{
+        width: 520px;
+        height: 50px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background-color: rgb(64, 61, 83);
+        color: white;
+        padding: 10px;
+        border: none;
+    }
+    .te textarea {
+        width: 520px;
+        height: 100px;
+        border-radius: 5px;
+        background-color: rgb(64, 61, 83);
+        color: white;
+        padding: 10px;
+        border: none;
+
+
+    }
+    button{
+        width: 100px;
+        height: 40px;
+        border-radius: 5px;
+        background-color: rgb(20, 3, 64);
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 15px;
+        transition: 0.9s ease-in-out;
+    }
+   button:hover{
+    background-color: red;
+   }
+    
+</style>
+<body>
+    <header class="header">
+        <a href="#" class="logo">TRUE CAR</a>
+        <nav class="navbar">
+            <a href="./website/webte.html" class="active">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./reviwe.html">Reviwe</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+     </header>
+    <div class="contact">
+        <div class="text">
+            <h4>Conntact info</h4>
+            <h5>ravyfaii31@gmail.com</h5>
+            <h5>Mobile: 0964925323</h5>
+            <h5>Cheythom kanda 9-1-9</h5>
+            <a class="icon" href="https://www.facebook.com/share/18dmmxQ79J/?mibextid=wwXIfr"><i class='bx bxl-facebook-circle'></i></a>
+            <a class="icon" href=""><i class='bx bxl-twitter' ></i></a>
+            <a class="icon" href=""><i class='bx bxl-tiktok'></i></a>
+        </div>
+        <form >
+        <div class="get">
+            <h1>Get in touch for True Car</h1>
+            <div class="input">
+                <input class="text-a" type="text" placeholder="Name">
+                <input class="email" type="email" placeholder="email">
+            </div>
+            <div class="input-num">
+                <input type="text" placeholder="Phone">
+            </div>
+            <div class="te">
+                <textarea rows="5" cols="20" placeholder="Messenger"></textarea>
+            </div>
+             <button type="submit">SUBMIT</button>
+          </div>
+    </div>
+</form>
+    
+</body>
+</html>
